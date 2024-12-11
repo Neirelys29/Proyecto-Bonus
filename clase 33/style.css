@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #78be21 ;
+
+}
+.navbar-brand{
+    color: white
+    !important;
+    font-weight: bold;
+    font-size:26px;
+}
+.logonavbar{
+        margin-right: 20px;
+}

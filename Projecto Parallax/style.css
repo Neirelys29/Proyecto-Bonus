@@ -1,0 +1,77 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em; 
+  color: #666; 
+}
+
+
+.pimg1 {
+  background-image: url(image1.png); 
+  min-height: 100%; 
+}
+
+
+.pimg2 {
+  background-image: url(image2.png); 
+  min-height: 400px; 
+}
+
+
+.pimg3 {
+  background-image: url(image3.png);
+  min-height: 400px; 
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+
+.ptext {
+  position: absolute; 
+  top: 50%;
+  width: 100%;
+  text-align: center; /* Centra el texto horizontalmente */
+  color: black; /* Color del texto */
+  font-size: 27px; /* Tamaño de fuente */
+  letter-spacing: 8px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+/* Estilos para el fondo del texto */
+.textBg {
+  background: #313534; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para las secciones */
+.section {
+  padding: 50px 80px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+}
+
+
+.section-light {
+  background-color: #f4f4f4; /* Color de fondo claro */
+  color: #666; /* Color del texto */
+}
+
+/* Estilos para las secciones con fondo oscuro */
+.section-dark {
+  background-color: #282e34; /* Color de fondo oscuro */
+  color: #ddd; /* Color del texto */
+}
